@@ -65,7 +65,9 @@
   }
 
   h3{
-    font-size: 18px;
+     font-size: 4em;
+      color: #FFF;
+      text-align: center;
   }
 
   .overflow{
@@ -177,19 +179,86 @@ header h2{
 #entorno .sec{
     padding:10px; 
 }
+#entorno .sec .content{
+    padding: 5px 10px;
+    background: #FF9800;
+}
 #entorno p{
     color: #FFF;
     font-size: 1.2em;
     text-align: center;
 }
-#entorno h2{
-    font-size: 4em;
-    color: #FFF;
-    text-align: center;
-}
+
 #entorno img{
-    width: 48%;
-    margin: 5px;
+    width: 49%;
+    margin: 2px;
+    border: 6px solid #FBE5C4;
     display: inline-block;
     float: left;
+    -webkit-transition: all 180ms ease-in-out; /* IE 9*/
+    -moz-transition: all 180ms ease-in-out; /* Firefox*/
+    -ms-transition: all 180ms ease-in-out; /* Safari and Chrome */
+    -o-transition: all 180ms ease-in-out; /* Opera*/
+}
+#entorno  img:hover{
+        transform:scale(1.2);
+        -ms-transform:scale(1.2); /* IE 9*/
+        -moz-transform:scale(1.2); /* Firefox*/
+        -webkit-transform:scale(1.2); /* Safari and Chrome */
+        -o-transform:scale(1.2); /* Opera*/
+         -webkit-transition: all 500ms ease-in-out; /* IE 9*/
+        -moz-transition: all 500ms ease-in-out; /* Firefox*/
+        -ms-transition: all 500ms ease-in-out; /* Safari and Chrome */
+        -o-transition: all 500ms ease-in-out; /* Opera*/
+} 
+
+
+
+
+/*****servicios******/
+#servicios{
+    min-height: 500px;
+    padding: 60px 0px;
+    border-bottom: 5px solid #FF9800;
+}
+#servicios h3{
+  color: orange;
+  margin-bottom: 50px; 
+}
+#servicios h5{
+  font-size: 1.4em;
+}
+#servicios .sec{
+  text-align: center;
+  display: inline-block;
+}
+#servicios .cont-ic{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100%;
+  background: orange;
+  margin: auto;
+}
+#servicios .cont-ic:hover{
+  background:#000;
+  color: orange; 
+  cursor: pointer;
+}
+#servicios .fa{
+  font-size: 4em;
+}
+#servicios .fa-wifi{
+  margin-left: -1px;
+  margin-top: 2px;
+}
+
+/*****instalaciones******/
+#instalaciones{
+  min-height: 500px;
+  padding: 50px 0px;
+}
+#instalaciones h3{
+  
+  margin: 30px 0px;
 }
