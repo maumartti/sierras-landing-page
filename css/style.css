@@ -41,7 +41,9 @@
     transition: 300ms;
   }
 
-
+  p{
+    font-family: "Roboto Condensed",sans-serif;
+  }
   ul {
     list-style: none;
   }
@@ -82,12 +84,12 @@
     background-repeat: no-repeat no-repeat; 
     background-position: center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 650px;
 }
 #header{
     background: transparent url("../images/dott.png") repeat scroll 0px 0px / 2px auto;
     padding: 1em 0px;
-    min-height: 500px;
+    min-height: 650px;
     text-align: center;
 }
 #header .navbar{
@@ -130,7 +132,7 @@ header h2{
 }
 #header .button-header ul{
     padding: 0px;
-    margin: 30px auto 20px;
+    margin: 40px auto 20px;
 }
 #header .button-header li{
     display: inline-block;
@@ -160,4 +162,34 @@ header h2{
 #header .button-header ul li:last-child:hover a{
     background: transparent;
     border-color: #FFF;
+}
+#header p{
+    color:#FFF;
+    margin: 30px auto;
+    width: 50%;
+    display: inline-block;
+}
+
+/*******Entorno*******/
+#entorno{
+    background: #FF9800;
+}
+#entorno .sec{
+    padding:10px; 
+}
+#entorno p{
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+}
+#entorno h2{
+    font-size: 4em;
+    color: #FFF;
+    text-align: center;
+}
+#entorno img{
+    width: 48%;
+    margin: 5px;
+    display: inline-block;
+    float: left;
 }
