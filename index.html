@@ -12,32 +12,42 @@
 	<div id="wrapper">
 		<div id="main">
 			<header id="header">
-	            <nav class="navbar navbar-default">
+	            <nav class="navbar navbar-inverse">
 	            	<div class="container-fluid">
 	            		<div class="navbar-header">
+	            			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                				<span class="sr-only">Toggle navigation</span>
+                				<span class="icon-bar"></span>
+                				<span class="icon-bar"></span>
+                				<span class="icon-bar"></span>
+            				</button>
 	            			<a class="navbar-brand" href="#">
 	            				<div><img src="images/logo.png" alt="logo">Sierras | Resort & Spa</div>
 	            			</a>
 	            		</div>
-	            		<ul class="nav navbar-nav navbar-right">
-	            			<li><a href="#">Home</a></li>
-	            			<li><a href="#">vistas</a></li>
-	            			<li><a href="#">serivcios</a></li>
-	            			<li><a href="#">paisajes</a></li>
-	            		</ul>
+	            		<div id="navbarCollapse" class="collapse navbar-collapse">
+		            		<ul class="nav navbar-nav navbar-right">
+		            			<li><a href="#">Home</a></li>
+		            			<li><a href="#">vistas</a></li>
+		            			<li><a href="#">serivcios</a></li>
+		            			<li><a href="#">paisajes</a></li>
+		            		</ul>
+	            		</div>
 	            	</div>
 	            </nav>
 	            <div class="container">
 		            <div class="row">
-			            <h1>Descubrí las sierras del Uruguay</h1>
-			            <h2>Deslúmbrate entre <span>vistas</span> y naturaleza en un entorno de total <span>relax</span></h2>
-			            <p>Disfruta de los placeres que brinda la naturaleza de nuestro querido país sumado al confort que te puede otorgar un lugar inigualable, localizado entre los cerros y manantiales con un entorno maravilloso esta nuestro Hotel.</p>
-			            <div class="button-header">
-				            <ul>
-				            	<li><a href="#">Sierras</a></li>
-				            	<li><a href="">Más</a></li>
-				            </ul>
-				        </div>
+		            	<div class="col-xs-12 col-md-12">
+				            <h1>Descubrí las sierras del Uruguay</h1>
+				            <h2>Deslúmbrate entre <span>vistas</span> y naturaleza en un entorno de total <span>relax</span></h2>
+				            <p>Disfruta de los placeres que brinda la naturaleza de nuestro querido país sumado al confort que te puede otorgar un lugar inigualable, localizado entre los cerros y manantiales con un entorno maravilloso esta nuestro Hotel.</p>
+				            <div class="button-header">
+					            <ul>
+					            	<li><a href="#">Sierras</a></li>
+					            	<li><a href="">Más</a></li>
+					            </ul>
+					        </div>
+				    	</div>
 				    </div>    
 		        </div>    
 			</header>
@@ -47,7 +57,7 @@
 		<section id="entorno">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="sec col-lg-6">
+					<div class="sec col-xs-12 col-md-6">
 						<div class="content">
 							<h3>Entorno natural</h3>
 							<p>Disfruta de un entorno natural respirando el aire mas puro y limpio que te puedas imaginar acompañado solamente por el sonido de los pájaros y el correr del agua alrededor de nuestra posada, es sin duda un descanso para los sentidos, te invitamos a experimentar el placer de la naturaleza en el estado mas puro que nuestro Uruguay nos ofrece.</p>
@@ -55,11 +65,19 @@
 							<p>Un lugar ideal para fines de semana en familia fuera de la ciudad pero con todas las ventajas que nuestras instalaciones ofrecen, sobre todo para los amantes de la tranquilidad y el relax, que solo se puede encontrar en lugares como este, te invitamos a descubrirlo.Vení! ¿que estas esperando?</p>
 						</div>	
 					</div>
-					<div class="sec col-lg-6">
-						<img src="images/paisaje1.jpg" alt="lagos">
-						<img src="images/paisaje2.jpg" alt="represa">
-						<img src="images/paisaje3.jpg" alt="campo">
-						<img src="images/paisaje4.jpg" alt="noche">
+					<div class="sec col-xs-12 col-md-6">
+						<div class="col-md-6 col-xs-6">
+							<img src="images/paisaje1.jpg" alt="lagos">
+						</div>
+						<div class="col-md-6 col-xs-6">	
+							<img src="images/paisaje2.jpg" alt="represa">
+						</div>
+						<div class="col-md-6 col-xs-6">	
+							<img src="images/paisaje3.jpg" alt="campo">
+						</div>
+						<div class="col-md-6 col-xs-6"> 	
+							<img src="images/paisaje4.jpg" alt="noche">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -69,7 +87,7 @@
 			<div class="container">
 				<div class="row">
 					<h3>Nuestros Servicios</h3>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<div class="sec">
 							<div class="cont-ic">
 								<em class="fa fa-wifi"></em>
@@ -79,7 +97,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<div class="sec">
 							<div class="cont-ic">
 								<em class="fa fa-glass"></em>
@@ -89,7 +107,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<div class="sec">
 							<div class="cont-ic">
 								<em class="fa fa-coffee"></em>
@@ -99,7 +117,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<div class="sec">
 							<div class="cont-ic">
 								<em class="fa fa-cutlery"></em>
@@ -116,19 +134,19 @@
 			<div class="container">
 				<div class="row">
 					<h3>Instalaciones y confort</h3>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<img src="images/resort/inst6.jpg">
 						<p>Pileta espectacular con vistas a los cerros, contamos con una para niños y otra para adultos, todas cuentan con hidromasaje interior y exterior.</p>
 					</div>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<img src="images/resort/inst2.jpg">
 						<p>Desayuno Buffet gratis con tu estadía, podes elegir entre una gran variedad de productos ricos y orgánicos extraídos de nuestras granjas.</p>
 					</div>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<img src="images/resort/inst3.jpg">
 						<p>Nuestro resort cuenta con miradores desde varias partes del establecimiento, tanto interiores como exteriores para tus sentidos.</p>
 					</div>
-					<div class="sec col-lg-3">
+					<div class="sec col-xs-6 col-md-3">
 						<img src="images/resort/inst5.jpg">
 						<p>Contamos con habitaciones dobles y simples tanto para una visita de fin de semana en pareja como, también para alojar a toda la familia.</p>
 					</div>
@@ -139,7 +157,7 @@
 			<div class="container">
 				<div class="row">
 					<h3>Contacto</h3>
-					<div class="col-lg-6 sec">
+					<div class="col-xs-12 col-sm-6 col-md-6 sec">
 						<h4>Envíanos tus consultas o sugerencias</h4>
 						<form>
 							<div class="form-group">
@@ -157,9 +175,9 @@
 							<button type="submit" class="btn btn-default">Enviar</button>
 						</form>
 					</div>
-					<div class="col-lg-6 sec">
+					<div class="col-xs-12 col-sm-6 col-md-6 sec">
 						<h4>Nuestra ubicación </h4>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647.5415552703041!2d-54.99038464721164!3d-34.32290274978462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x950ac56411efb9f3%3A0xb133554bc492315!2sVilla+Serrana%2C+Departamento+de+Lavalleja!5e0!3m2!1ses-419!2suy!4v1497827705611" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647.5415552703041!2d-54.99038464721164!3d-34.32290274978462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x950ac56411efb9f3%3A0xb133554bc492315!2sVilla+Serrana%2C+Departamento+de+Lavalleja!5e0!3m2!1ses-419!2suy!4v1497827705611" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -169,7 +187,7 @@
 				<li>
 					<div class="cnt-img">
 					<img class="img-responsive" src="images/sierras.jpg" alt=""></div>
-					<div class="col-lg-12 cnt-txt">
+					<div class="col-xs-12 col-md-12 cnt-txt">
 					<em class="fa fa-quote-right"></em>
 					<p>Te esperamos</p>
 					</div>
@@ -177,7 +195,7 @@
 				<li>
 					<div class="cnt-img">
 					<img class="img-responsive" src="images/cielo.jpg" alt=""></div>
-					<div class="col-lg-12 cnt-txt">
+					<div class="col-xs-12 col-md-12 cnt-txt">
 					<em class="fa fa-quote-right"></em>
 					<p>Las estrellas nos miran</p>
 					</div>
@@ -188,7 +206,7 @@
 		<footer id="footer">
 			<div class="container">
 					<div class="row">
-						<div class="col-lg-12">
+						<div class="col-md-12">
 						<p>© 2017 Sierras Resort & Spa. Lavalleja Uruguay | Design by <a href="https://github.com/maumartti/"> maumartti</a> </p>
 					</div>
 				</div>
