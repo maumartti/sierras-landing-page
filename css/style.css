@@ -109,6 +109,9 @@
 #header .navbar a{
     color: #fff;
 }
+#header .navbar-nav li a:hover{
+    background: rgba(0,0,0,0.2); 
+}
 #header .navbar-brand{
     margin: 0px 0px;
     padding: 0px;
@@ -176,6 +179,7 @@ header h2{
     display: inline-block;
 }
 
+
 @media(max-width:768px){
   #header h1{
     font-size: 4em;
@@ -186,7 +190,7 @@ header h2{
   .navbar-toggle {/*boton del navbar*/
     background-color: #333;
   }
-  #header .navbar-nav li a:hover{
+  #header .navbar-nav li a{
     background: rgba(0,0,0,0.5); 
   }
 }
